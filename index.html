@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <meta name="description" content="All your live cricket in one place — live matches, live scores and instant alerts from RKTV.">
 <meta name="keywords" content="cricket news, live cricket streaming, live score, international cricket, RKTV, live match">
-<title>RKTV Live Stream</title>
+<title>CRIC KIT Stream</title>
 
 <!-- Preconnects -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,11 +28,6 @@ body{
   -webkit-user-select:none;user-select:none;
   color:#fff;
 }
-
-/* Custom RKTV Logo */
-.logo-btn{position:fixed;top:10px;left:10px;z-index:50;text-decoration:none;transition:opacity .2s;}
-.logo-btn:hover{opacity:.8;}
-.logo-btn img{height:36px;border-radius:7px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.8));}
 
 /* Grid & Dashboard UI */
 #overlay{position:fixed;inset:0;z-index:9999;background:radial-gradient(ellipse at 50% 30%,#050a12 0%,#050505 70%);display:flex;flex-direction:column;align-items:center;justify-content:center}
@@ -160,13 +155,12 @@ body{
 </head>
 <body>
 
-<a href="https://t.me/RKTVLIVE" class="logo-btn" target="_blank">
-  <img src="https://i.ibb.co/nGrvNDP/file-00000000c6b08211807a5ca56f788468.png" alt="RKTV">
+<a href="https://t.me/cric_Kit" class="logo-btn" target="_blank">
 </a>
 
 <div id="channel-list" style="display: flex;">
   <div class="header">
-    <h1>RKTV LIVE</h1>
+    <h1>CRIC KIT - LIVE</h1>
     <p>Stream Exclusive Sports &amp; Live Matches in HD</p>
   </div>
   <div class="filters" id="filters">
@@ -236,7 +230,7 @@ body{
       <button class="wa-auto-popup-close-btn" id="waAutoClose" type="button">×</button>
       <div class="wa-auto-popup-title">JOIN CHANNEL !!</div>
       <div class="wa-auto-popup-text">🚨 <b>DON'T MISS ANY MATCH ACTION!</b> 👀🔥<br><br>Get Instant Live Streaming Links & Real-Time Updates Directly On<br><b>RKTV LIVE</b> 📺🚀</div>
-      <button class="wa-auto-btn-join" id="waAutoJoin" type="button">🔥 JOIN WHATSAPP NOW 🚀</button>
+      <button class="wa-auto-btn-join" id="waAutoJoin" type="button"> JOIN TELEGRAM NOW 🚀</button>
       <button class="wa-auto-btn-skip" id="waAutoSkip" type="button">Already Joined / Close</button>
     </div>
   </div>
@@ -248,7 +242,7 @@ body{
 
 var API_1 = "https://sonujson-v6.pages.dev/Data/willow.json";
 var API_2 = "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.json";
-var WA_CHANNEL = "https://whatsapp.com/channel/0029Vb6Ckmn1noz7GiJlsP3P";
+var WA_CHANNEL = "https://t.me/cric_Kit";
 
 window.shakaPlayerInstance = null;
 window.hlsInstance = null;
